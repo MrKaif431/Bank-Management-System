@@ -9,6 +9,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 
+// these lines of code is showing frontend of the program.
+
 public class BalanceEnquriy extends JFrame implements ActionListener {
 
     String pin;
@@ -43,6 +45,8 @@ public class BalanceEnquriy extends JFrame implements ActionListener {
         b1.addActionListener(this);
         l3.add(b1);
 
+        // these lines of code is showing backend of the program.
+        
         int balance =0;
         try{
             Database c = new Database();
@@ -75,4 +79,5 @@ public class BalanceEnquriy extends JFrame implements ActionListener {
     public static void main(String[] args) {
         new BalanceEnquriy("");
     }
+
 }
