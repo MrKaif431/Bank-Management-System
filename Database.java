@@ -1,4 +1,4 @@
-// FOR DATABASE CONNECTION
+// In this program we connecting data with database(MySql).
 
 package bank.management.System;
 import java.sql.*;
@@ -18,3 +18,4 @@ public class Database {
         }
     }
 }
+
