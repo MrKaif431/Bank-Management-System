@@ -5,6 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+// these lines of code are showing how frontend is designed. For this we are using inbuild function of java like swing, awt ... 
+
 public class main_Class extends JFrame implements ActionListener {
     JButton b1,b2,b3,b4,b5,b6,b7;
     String pin;
@@ -80,6 +82,9 @@ public class main_Class extends JFrame implements ActionListener {
 
     }
 
+    //  These lines of code is showing backend of the program nad how data is connecting with database. which use to handle the frontend by using try-catch.... 
+
+    
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource()==b1){
@@ -107,4 +112,5 @@ public class main_Class extends JFrame implements ActionListener {
     public static void main(String[] args) {
         new main_Class("");
     }
+
 }
